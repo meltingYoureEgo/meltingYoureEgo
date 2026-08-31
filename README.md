@@ -1,3 +1,4 @@
+<!-- Header SVG with CSS styling (sindresorhus style) -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b4d8,100:0077b6&height=200&section=header&text=ａᏰᏥ%20i&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=40" width="100%"/>
 </p>
