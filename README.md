@@ -1,8 +1,76 @@
-# 👋 Hey, I'm ａᏰᏥ i
+<!-- Header SVG with CSS styling (sindresorhus style) -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b4d8,100:0077b6&height=200&section=header&text=ａᏰᏥ%20i&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=40" width="100%"/>
+</p>
 
-### 💻 Software Developer • 🔐 Cybersecurity Enthusiast • 🛡️ Security Researcher
+<!-- Animated Typing Banner (sindresorhus uses this) -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=500&color=00B4D8&center=true&vCenter=true&width=600&lines=Software+Developer;Cybersecurity+Enthusiast;Security+Researcher;Reverse+Engineer;Ethical+Hacker" alt="Typing SVG" />
+</p>
 
-> *Building software. Studying security. Breaking things in controlled labs. Making them safer.*
+---
+
+<!-- Embedded CSS using foreignObject (sindresorhus trick) -->
+<p align="center">
+  <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+    <foreignObject width="0" height="0">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <style>
+          /* Profile README Custom Styles */
+          body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #0d1117;
+            color: #c9d1d9;
+          }
+          h1, h2, h3 {
+            color: #f0f6fc;
+            border-bottom: 2px solid #00b4d8;
+            padding-bottom: 8px;
+          }
+          .badge-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            justify-content: center;
+            margin: 16px 0;
+          }
+          .badge-container img {
+            transition: transform 0.2s ease;
+          }
+          .badge-container img:hover {
+            transform: scale(1.08);
+          }
+          .disclaimer {
+            background: #161b22;
+            border-left: 4px solid #00b4d8;
+            padding: 12px 16px;
+            border-radius: 6px;
+            margin: 16px 0;
+            color: #8b949e;
+          }
+          .stats-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 16px;
+          }
+          .stats-container img {
+            border-radius: 8px;
+          }
+          details summary {
+            cursor: pointer;
+            font-weight: 600;
+            color: #00b4d8;
+            padding: 8px 0;
+          }
+          details summary:hover {
+            color: #58c4e0;
+          }
+        </style>
+      </div>
+    </foreignObject>
+  </svg>
+</p>
 
 ---
 
@@ -18,23 +86,31 @@ I'm a B.Tech student and software developer with a deep interest in building pra
 
 ---
 
-## 🛠️ Tech Stack
+<details>
+<summary>🛠️ <strong>Tech Stack</strong> (click to expand)</summary>
+<br>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Assembly](https://img.shields.io/badge/Assembly-525252?style=for-the-badge&logo=asm&logoColor=white)
+<div class="badge-container">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Assembly-525252?style=for-the-badge&logo=asm&logoColor=white" />
+</div>
+
+</details>
 
 ---
 
-## 🔐 Cybersecurity Focus
+<details>
+<summary>🔐 <strong>Cybersecurity Focus</strong> (click to expand)</summary>
+<br>
 
 - 🌐 Web Application Security
 - 🔎 Application Security (AppSec)
@@ -53,9 +129,13 @@ I'm a B.Tech student and software developer with a deep interest in building pra
 - 🛠️ Modding & Bypass Research (for educational/ethical purposes)
 - 🔐 Account Security Research (testing with proper authorization)
 
+</details>
+
 ---
 
-## 🧪 Research & Project Areas
+<details>
+<summary>🧪 <strong>Research & Project Areas</strong> (click to expand)</summary>
+<br>
 
 - **Reverse Engineering:** Analyzing binaries, unpacking, patching, and understanding malware behavior in isolated environments.
 - **Modding & Bypass Techniques:** Studying how applications implement protections and developing bypass mechanisms for educational purposes (e.g., anti-tamper, license verification).
@@ -63,17 +143,30 @@ I'm a B.Tech student and software developer with a deep interest in building pra
 - **Platform Security Research:** Investigating authentication flows and session management to identify weaknesses and propose fixes (all done in authorized test environments).
 - **Open-Source Security Tools:** Building tools for ethical hackers and penetration testers.
 
-> **Disclaimer:** All activities mentioned above are performed **solely for educational and research purposes** in controlled, authorized environments. I do not condone or engage in illegal activities.
+<div class="disclaimer">
+⚠️ <strong>Disclaimer:</strong> All activities mentioned above are performed <strong>solely for educational and research purposes</strong> in controlled, authorized environments. I do not condone or engage in illegal activities.
+</div>
+
+</details>
 
 ---
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=meltingYoureEgo&show_icons=true&theme=radical&hide_border=true)
+<div class="stats-container">
+  <img src="https://github-readme-stats.vercel.app/api?username=meltingYoureEgo&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=00b4d8&icon_color=00b4d8" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=meltingYoureEgo&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=00b4d8" width="49%" />
+</div>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=meltingYoureEgo&layout=compact&theme=radical&hide_border=true)
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=meltingYoureEgo&theme=radical&hide_border=true&background=0d1117&stroke=00b4d8&ring=00b4d8&fire=00b4d8&currStreakLabel=00b4d8" width="98%" />
+</div>
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=meltingYoureEgo&theme=radical&hide_border=true)
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0077b6,100:00b4d8&height=120&section=footer" width="100%"/>
+</p>
 
 ---
 
@@ -81,4 +174,4 @@ I'm a B.Tech student and software developer with a deep interest in building pra
 
 ---
 
-⭐️ **Feel free to explore my repositories and connect with me!** 
+⭐️ **Feel free to explore my repositories and connect with me!**
