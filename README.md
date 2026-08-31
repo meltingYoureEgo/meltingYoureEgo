@@ -11,67 +11,78 @@
 ---
 
 <!-- Embedded CSS using foreignObject (sindresorhus trick) -->
-<!-- NOTE: GitHub may strip this CSS, but the markdown below still works perfectly -->
-<p align="center">
-  <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0">
-    <foreignObject width="0" height="0">
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <style>
-          /* Profile README Custom Styles */
-          body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background: #0d1117;
-            color: #c9d1d9;
-          }
-          h1, h2, h3 {
-            color: #f0f6fc;
-            border-bottom: 2px solid #00b4d8;
-            padding-bottom: 8px;
-          }
-          .badge-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            justify-content: center;
-            margin: 16px 0;
-          }
-          .badge-container img {
-            transition: transform 0.2s ease;
-          }
-          .badge-container img:hover {
-            transform: scale(1.08);
-          }
-          .disclaimer {
-            background: #161b22;
-            border-left: 4px solid #00b4d8;
-            padding: 12px 16px;
-            border-radius: 6px;
-            margin: 16px 0;
-            color: #8b949e;
-          }
-          .stats-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 16px;
-          }
-          .stats-container img {
-            border-radius: 8px;
-          }
-          details summary {
-            cursor: pointer;
-            font-weight: 600;
-            color: #00b4d8;
-            padding: 8px 0;
-          }
-          details summary:hover {
-            color: #58c4e0;
-          }
-        </style>
-      </div>
-    </foreignObject>
-  </svg>
-</p>
+<!--
+NOTE:
+GitHub does not execute custom CSS or foreignObject inside README files.
+The original CSS is preserved below so NO CSS/content has been removed.
+It is wrapped in a comment so it does not appear as visible text.
+-->
+
+<!--
+<style>
+  /* Profile README Custom Styles */
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: #0d1117;
+    color: #c9d1d9;
+  }
+
+  h1, h2, h3 {
+    color: #f0f6fc;
+    border-bottom: 2px solid #00b4d8;
+    padding-bottom: 8px;
+  }
+
+  .badge-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin: 16px 0;
+  }
+
+  .badge-container img {
+    transition: transform 0.2s ease;
+  }
+
+  .badge-container img:hover {
+    transform: scale(1.08);
+  }
+
+  .disclaimer {
+    background: #161b22;
+    border-left: 4px solid #00b4d8;
+    padding: 12px 16px;
+    border-radius: 6px;
+    margin: 16px 0;
+    color: #8b949e;
+  }
+
+  .stats-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .stats-container img {
+    border-radius: 8px;
+  }
+
+  details summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: #00b4d8;
+    padding: 8px 0;
+  }
+
+  details summary:hover {
+    color: #58c4e0;
+  }
+</style>
+-->
 
 ---
 
@@ -92,17 +103,29 @@ I'm a B.Tech student and software developer with a deep interest in building pra
 <br>
 
 <div class="badge-container">
+
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+
   <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+
   <img src="https://img.shields.io/badge/Assembly-525252?style=for-the-badge&logo=asm&logoColor=white" />
+
 </div>
 
 </details>
@@ -145,7 +168,9 @@ I'm a B.Tech student and software developer with a deep interest in building pra
 - **Open-Source Security Tools:** Building tools for ethical hackers and penetration testers.
 
 <div class="disclaimer">
+
 ⚠️ <strong>Disclaimer:</strong> All activities mentioned above are performed <strong>solely for educational and research purposes</strong> in controlled, authorized environments. I do not condone or engage in illegal activities.
+
 </div>
 
 </details>
@@ -155,12 +180,17 @@ I'm a B.Tech student and software developer with a deep interest in building pra
 ## 📊 GitHub Stats
 
 <div class="stats-container">
+
   <img src="https://github-readme-stats.vercel.app/api?username=meltingYoureEgo&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=00b4d8&icon_color=00b4d8" width="49%" />
+
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=meltingYoureEgo&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=00b4d8" width="49%" />
+
 </div>
 
 <div align="center">
+
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=meltingYoureEgo&theme=radical&hide_border=true&background=0d1117&stroke=00b4d8&ring=00b4d8&fire=00b4d8&currStreakLabel=00b4d8" width="98%" />
+
 </div>
 
 ---
