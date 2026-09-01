@@ -181,6 +181,7 @@ I'm a B.Tech student and software developer with a deep interest in building pra
 
 <div class="stats-container">
 
+  <img src="https://github-readme-stats.vercel.app/api?username=meltingYoureEgo&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=00b4d8&icon_color=00b4d8" width="49%" />
 
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=meltingYoureEgo&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=00b4d8" width="49%" />
 
